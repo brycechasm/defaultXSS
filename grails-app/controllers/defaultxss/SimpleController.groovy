@@ -3,6 +3,6 @@ package defaultxss
 class SimpleController {
 
     def index() {
-        throw Exception('hi')
+        throw new Exception('hi')
     }
 }
